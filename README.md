@@ -53,18 +53,7 @@ Specifications of the Sentinel-1 satellites:
 # How the Initial Dataset is Organized
 ### Sentinel 2
 The dataset from Sentinel 2 satellite is splitted into 2 main folders, the one with the actual images and another one with the label.
-The image below illustrates how these two folders look like on a local machine
 
-![Images and Labels foldes](/images/Images_Labels.png)
-
-If we then open the folder containing the images the result looks like the following image. Each image is stored in a seperate folder.
-The name of the folder indicates the different locations with the prefix "source_1" and the date of sensing.
-
-![Images folder 1](/images/Images_1.png)
-
-The next image demonstrates the contents of one of this folders. As we can see the image is splitted into 13 spectral bands. In the following steps we will have to stack those bands into a single multispectral image.
-
-![Images folder 1](/images/Images_2.png)
 
 # Pre Processing
 
